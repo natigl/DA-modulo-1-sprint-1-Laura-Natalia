@@ -1,6 +1,6 @@
 This repository contains the exercises I did in the first module of my Data Analytics bootcamp at Adalab. It is distributed in two folders, one with the Python practices and other with the SQL practices:
 
-  - 🐍 Python :
+- 🐍 Python :
 Here you will find my first steps with Python, learning about the use of the different structures that this language supports: dictionaries, sets, lists, control flow, basic operations and some other basic things.
 
 
