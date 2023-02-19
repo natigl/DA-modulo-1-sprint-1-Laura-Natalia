@@ -8,7 +8,7 @@ Here you will find my first steps with Python, learning about the use of the dif
 
   - Random
  
-On the other side, a slightly more advanced level of Python with practices on the realization of classes, functions, file management ... in short, some of the tools that allow the automation and optimization of the code and processes. And finally, exercises making connections between Python and MySQL.
+ - 🐬 On the other side, a slightly more advanced level of Python with practices on the realization of classes, functions, file management ... in short,     some of the tools that allow the automation and optimization of the code and processes. And finally, exercises making connections between Python and   MySQL.
 
 📖 Libraries used: 
 
