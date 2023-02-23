@@ -1,13 +1,17 @@
 USE northwind;
 
-#1: Productos que vende NORTHWIND y sus precios
+/* 1. Conociendo el tipo de productos que vendemos en Northwind:
+Crea una consulta que muestre los primeros 10 productos según su ID y que nos indique el nombre de 
+dichos productos y sus precios. */ 
 
 SELECT product_name, unit_price
 FROM products
-WHERE product_id 
+ORDER BY product_id 
 LIMIT 10;
 
-#2: Ordenando los resultados 
+/* 2. Ordenando los resultados 
+Ahora realiza la misma consulta pero que nos muestre los últimos 10 productos según su ID 
+de manera descendiente. */ 
 
 SELECT product_name, unit_price
 FROM products
@@ -15,11 +19,12 @@ WHERE product_id
 ORDER BY product_id DESC 
 LIMIT 10;
 
-#3 Pedidos de nuestra BBDD
-SELECT DISTINCT order_id
-FROM order_detailS;
+/* 3. Pedidos de nuestra BBDD */ 
 
-#4 Los dos primeros pedidos de nuestra BBDD
+SELECT DISTINCT order_id
+FROM order_details;
+
+/* 4. Los dos primeros pedidos de nuestra BBDD:*/ 
 
 SELECT DISTINCT order_id
 FROM order_details
